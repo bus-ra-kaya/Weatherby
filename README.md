@@ -5,8 +5,8 @@ A minimalistic weather app for keeping track of time and forecast information wi
 Note:  The app uses data from OpenWeatherMap and the data may differ from other weather forecasts
 
 ## Screenshots
-<img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e8e4ff5c-61ab-48f2-aafa-dff4496c28da" />
-<img width="1080" height="863" alt="image" src="https://github.com/user-attachments/assets/8676350d-a053-472e-81bb-4cb0d1519c9f" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e8e4ff5c-61ab-48f2-aafa-dff4496c28da" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8676350d-a053-472e-81bb-4cb0d1519c9f" />
 
 ## Features
 
