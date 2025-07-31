@@ -8,7 +8,7 @@ Note:  The app uses data from OpenWeatherMap and the data may differ from other 
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/e8e4ff5c-61ab-48f2-aafa-dff4496c28da" width="100%"/></td>
-    <td><img src="https://github.com/user-attachments/assets/8676350d-a053-472e-81bb-4cb0d1519c9f" width="100%"/></td>
+    <td><img width="100%" src="https://github.com/user-attachments/assets/e2deb623-fb39-40db-984d-2b5a47ac9f44" /></td>
   </tr>
 </table>
 
