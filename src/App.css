@@ -96,6 +96,7 @@ hr {
 .weather-detail {
   display: grid;
   grid-template-columns: 1fr;
+  margin-left: auto;
 }
 
 .weather-detail-part {
@@ -154,7 +155,7 @@ img {
 
   .current-weather-img{
     width: 80px;
-    padding-top: 50px;
+    padding-top: 35px;
   }
   
   h2 {
@@ -163,5 +164,13 @@ img {
 
   h3 {
     font-size: 16px;
+  }
+
+  .weather-detail{
+    padding-left: 20px;
+  }
+
+  .weather-detail img {
+    width: 30px;
   }
 }
