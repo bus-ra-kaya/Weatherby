@@ -12,7 +12,7 @@ Note: The application uses data from OpenWeatherMap and the data may differ from
 
 * Search any city or select a location via interactive map
 * Live location time updates for selected location
-* Dynamic weather data pulled from OpenWeather and WeatherAPI
+* Dynamic weather data pulled from OpenWeather
 
 
 ## API Notes
