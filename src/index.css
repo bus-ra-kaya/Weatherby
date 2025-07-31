@@ -1,0 +1,11 @@
+body {
+  background-image: url('./assets/NoaaUnsplashSky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  text-align: center;
+  color: #EAFFFD;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
