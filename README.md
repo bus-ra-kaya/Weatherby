@@ -27,28 +27,28 @@ You’ll need to sign up for each service and add your API keys to a `.env` file
 ## Getting Started
 
 * Clone the repo
-`git clone https://github.com/bus-ra-kaya/Weatherby.git
-cd weatherApp`
+```git clone https://github.com/bus-ra-kaya/Weatherby.git```
+```cd weatherApp```
 
 * Install dependencies
-`npm install`
+```npm install```
 
-*Add your API keys in a .env file like:
+* Add your API keys in a .env file like:
 
-`VITE_WEATHER_API_KEY=your_openweather_api_key
-VITE_LOCATION_API_KEY=your_weatherapi_key
-VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key`
+```VITE_WEATHER_API_KEY=your_openweather_api_key```
+```VITE_LOCATION_API_KEY=your_weatherapi_key```
+```VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key```
 
-* Start development server
-`npm run dev`
+* Start the server
+```npm run dev```
 
 ## Improvements To Be Made
-*Handling API call fails
-*Adding a state management library for less clutter
+* Handling API call fails
+* Adding a state management library for less clutter
 
 ## Credits:
-Icons from [icons8.com](https://icons8.com/)
-Background image from [Unsplash](https://unsplash.com/photos/silhouette-of-trees-during-daytime-QRBe3Ithczs)
+* Icons from [icons8.com](https://icons8.com/)
+* Background image from [Unsplash](https://unsplash.com/photos/silhouette-of-trees-during-daytime-QRBe3Ithczs)
 
 ## License:
 MIT License
