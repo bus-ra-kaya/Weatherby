@@ -1,8 +1,8 @@
 ## Weatherby
 
-A minimalistic weather app for keeping track of time and forecast information with a simple interface.
+A minimalistic weather app for keeping track of time and forecast information with a simple interface
 
-Note: The application uses data from OpenWeatherMap and the data may differ from other weather forecasts
+Note:  The app uses data from OpenWeatherMap and the data may differ from other weather forecasts
 
 ## Screenshots
 <img width="975" height="856" alt="image" src="https://github.com/user-attachments/assets/e8e4ff5c-61ab-48f2-aafa-dff4496c28da" />
@@ -27,20 +27,20 @@ You’ll need to sign up for each service and add your API keys to a `.env` file
 ## Getting Started
 
 * Clone the repo
-```git clone https://github.com/bus-ra-kaya/Weatherby.git
-cd weatherApp```
+`git clone https://github.com/bus-ra-kaya/Weatherby.git
+cd weatherApp`
 
 * Install dependencies
-```npm install```
+`npm install`
 
 *Add your API keys in a .env file like:
 
-```VITE_WEATHER_API_KEY=your_openweather_api_key
+`VITE_WEATHER_API_KEY=your_openweather_api_key
 VITE_LOCATION_API_KEY=your_weatherapi_key
-VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key```
+VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key`
 
 * Start development server
-```npm run dev```
+`npm run dev`
 
 ## Improvements To Be Made
 *Handling API call fails
