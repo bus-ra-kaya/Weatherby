@@ -1,4 +1,4 @@
-import {AreaChart, Area, YAxis, LabelList, XAxis,ResponsiveContainer} from 'recharts';
+import {AreaChart, Area, YAxis, XAxis,ResponsiveContainer} from 'recharts';
 
 export default function Chart({next18Hours}) {
     

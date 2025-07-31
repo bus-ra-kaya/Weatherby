@@ -1,5 +1,4 @@
 import React from 'react'
-import LoadingScreen from './LoadingScreen';
 
 
 export default function TextSearch (props) {
@@ -7,11 +6,13 @@ export default function TextSearch (props) {
    const [city, setCity] = React.useState("")
 
   	function searchCity (event) {
+
+      if(city !== "")
        props.cityToggle()
-		event.preventDefault()
-		fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${import.meta.env.VITE_WEATHER_API_KEY}`)
-		.then(res => res.json())
-		.then(data => {
+      event.preventDefault()
+      fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${import.meta.env.VITE_WEATHER_API_KEY}`)
+      .then(res => res.json())
+      .then(data => {
 			props.setCoordinates({lat: data[0].lat, lng: data[0].lon})
 			
 		})
@@ -22,14 +23,16 @@ export default function TextSearch (props) {
   return(
     <>
         <form id="loadByCity" onSubmit={searchCity}>
+          <label htmlFor="city-input" id="city-label">Search for a city: </label>
           <input 
             className="city-search" 
             type="text" 
-            placeholder="Enter a city name"
+            placeholder="Istanbul"
             onChange= {(event) => {setCity(event.target.value)}}
+            aria-describedby="city-label"
             value= {city} 
 					/>
-          <button type="submit" className="submit" >Search</button>
+          <button type="submit" className="submit" aria-label="Submit city selection">Search</button>
         </form>
     </>
       
